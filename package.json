@@ -1,0 +1,39 @@
+{
+  "name": "leak",
+  "version": "1.0.0",
+  "description": "a tiny tools enhance raw localstorage in event-system",
+  "main": "dist/leak.cjs.js",
+  "module": "dist/leak.esm.js",
+  "browser": "dist/leak.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blank"
+  },
+  "keywords": [
+    "tiny",
+    "localstorage",
+    "emit",
+    "listen",
+    "event"
+  ],
+  "author": "cywen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/plugin-transform-runtime": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@rollup/plugin-babel": "^5.3.0",
+    "eslint": "^7.26.0",
+    "rollup": "^2.48.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@babel/runtime-corejs3": "^7.14.0",
+    "core-js": "^3.12.1"
+  }
+}
